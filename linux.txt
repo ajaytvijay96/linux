@@ -1,0 +1,7 @@
+1. enable port forwarding
+
+echo 1 > /proc/sys/net/ipv4/ip_forward
+or
+system edit /etc/sysctl.conf and add the following line:
+net.ipv4.ip_forward = 1
+----------------------------------------------------------
